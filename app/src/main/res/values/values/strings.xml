@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Bass Pro Commerce</string>
+    <string name="btn_label_goToCart">Review Cart</string>
+    <string name="btn_label_goToshopDept">Browse</string>
+    <string name="btn_label_goToEvents">Local Events</string>
+    <string name="btn_label_goToRewards">My Rewards</string>
+    <string name="btn_label_goToSettings">Settings</string>
+    <string name="btn_label_goToProfile">My Profile</string>
+    <string name="btn_label_StoreLocation">Store Location</string>
+    <string name="btn_label_giftCardPLP">Gift Cards</string>
+    <string name="btn_label_Offers">Offers</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_failure">I\'m sorry, it didn\'t work.</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="btn_label_goToOfferDetails">Offer Details</string>
+    <string name="btn_label_storeInfo">Store Information</string>
+    <string name="btn_label_checkOut">Checkout</string>
+    <string name="btn_label_productDetails">Product Details</string>
+    <string name="btn_label_saveForLater">Save For Later</string>
+    <string name="btn_label_addToCart">Add To Cart</string>
+    <string name="btn_label_addToSaveForLater">Add to Save for Later</string>
+    <string name="btn_label_rewardsHome">Rewards Home</string>
+    <string name="btn_label_personalInformation">Update Personal Info</string>
+    <string name="btn_label_passwordManagement">Password Management</string>
+    <string name="btn_label_checkCardBalance">Check Card Balance</string>
+    <string name="btn_label_requestCert">Request Certificate</string>
+    <string name="btn_label_requestNewCard">Request New Rewards Card</string>
+    <string name="btn_label_enterReceipt">Enter Receipt</string>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="25dp">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/activity_toolbar" />
+    <!--<EditText
+        android:id="@+id/searchTextId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Search"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Dominic!"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <Button
+        android:id="@+id/SettingsButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goToMyProfile"
+        android:text="@string/btn_label_goToProfile"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <Button
+        android:id="@+id/cartButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goToReviewCart"
+        android:text="@string/btn_label_goToCart"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <Button
+        android:id="@+id/LocationButtonId"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:onClick="goToFindAStore"
+        android:text="@string/btn_label_StoreLocation"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <Button
+        android:id="@+id/giftCardButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:onClick="goToOffers"
+        android:text="@string/btn_label_Offers"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+
+    <Button
+        android:id="@+id/shopButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goToShopByDepartment"
+        android:text="@string/btn_label_goToshopDept"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <Button
+        android:id="@+id/RewardsButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goToMore"
+        android:text="More"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+
+</android.support.constraint.ConstraintLayout>
